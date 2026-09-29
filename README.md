@@ -3,8 +3,8 @@
 Claude skills for the whole product design process: discovery through shipped code,
 plus design systems, interface craft, motion, and brand.
 
-Includes 32 skills and 7 read-only reviewer subagents. It installs as a single
-Claude Code plugin.
+Includes 32 skills and 7 read-only reviewer subagents, as plain folders you copy or
+link into Claude Code.
 
 - **Reference bank:** [designeer.xyz](https://designeer.xyz), the curated index of
   interface craft, component libraries, design systems, and design engineers, is
@@ -17,13 +17,19 @@ Claude Code plugin.
 
 ## Install
 
+Clone the repo, then link the skills and reviewers into your user-level Claude
+folders so every project sees them:
+
 ```bash
-/plugin marketplace add toribryan/toribryan
-/plugin install design-skills@toribryan
+git clone https://github.com/toribryan/toribryan
+mkdir -p ~/.claude/skills ~/.claude/agents
+ln -s "$PWD"/toribryan/design-skills/skills/* ~/.claude/skills/
+ln -s "$PWD"/toribryan/design-skills/agents/*.md ~/.claude/agents/
 ```
 
-Or copy any `skills/<name>/` folder into `~/.claude/skills/` (or a project's
-`.claude/skills/`), and any `agents/<name>.md` into `.claude/agents/`.
+Symlinks keep them current with `git pull`. To use them in one project only, link
+or copy into that project's `.claude/skills/` and `.claude/agents/` instead. You can
+also take just the skills you want: each `skills/<name>/` folder works on its own.
 
 ## Start here
 

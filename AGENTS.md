@@ -1,6 +1,6 @@
 # design-skills
 
-A Claude Code plugin with 32 skills and 7 reviewer subagents for end-to-end
+A collection of 32 Claude skills and 7 reviewer subagents for end-to-end
 product design: discovery, definition, design, validation, design systems, craft,
 motion, brand, and shipping. The reference bank follows designeer.xyz; the house
 design system is Fibo. The layout of this file follows Fibo's `AGENTS.md`.
@@ -9,14 +9,12 @@ design system is Fibo. The layout of this file follows Fibo's `AGENTS.md`.
 
 | Path | Holds |
 | --- | --- |
-| `.claude-plugin/plugin.json` | Plugin manifest |
 | `skills/<name>/SKILL.md` | One skill each. `references/` and `templates/` beside it when needed |
 | `skills/product-design-process/` | The router: phase map, reviewers, project log |
 | `agents/<name>.md` | Read-only reviewer subagents |
 | `REFERENCE-BANK.md` | Curated sources, organized like designeer.xyz |
 | `FIBO.md` | The house design system and its agent setup |
 | `AUTHORING.md` | The skill and reviewer format. Read before writing either |
-| `../.claude-plugin/marketplace.json` | Marketplace entry at the repo root |
 
 ## Using the collection
 
