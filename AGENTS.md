@@ -3,7 +3,7 @@
 A collection of 32 Claude skills and 7 reviewer subagents for end-to-end
 product design: discovery, definition, design, validation, design systems, craft,
 motion, brand, and shipping. The reference bank follows designeer.xyz; the house
-design system is Fibo. The layout of this file follows Fibo's `AGENTS.md`.
+design system is Fibo. This file follows the layout of Fibo's `AGENTS.md`.
 
 ## Layout
 
@@ -32,7 +32,7 @@ design system is Fibo. The layout of this file follows Fibo's `AGENTS.md`.
   `grep -rhoE '\]\((\.\./|\./)?[a-zA-Z0-9_./-]+\.md[^)]*\)' skills agents *.md`
   and open each target.
 - Cross-links use skill and reviewer names that exist in `skills/` and `agents/`.
-- New skills are added to the README table and to the phase map in
+- Each new skill appears in the README table and in the phase map in
   `skills/product-design-process/SKILL.md`.
 - Facts about Fibo are checked against the Fibo repo, not remembered.
 

@@ -78,7 +78,7 @@ either promote them or document them as a convention.
 rg -n "${EXCL[@]}" -o 'dark:[a-z0-9:\[\]=_-]+' $SRC
 ```
 
-Each hit is a place where a semantic role is missing, unless commented.
+Each uncommented hit marks a missing semantic role.
 
 ## 7. Motion literals
 

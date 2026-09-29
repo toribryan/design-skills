@@ -44,8 +44,8 @@ Gather these. If one is missing, use the default in brackets.
 2. **Write 3–4 principles.** Each principle is a behavior, not a feeling.
    "Elements enter from where they came from" beats "motion is delightful".
    Output: principles with a do/don't pair each.
-3. **Place the product on two axes.** *Productive ↔ expressive* (how much motion is
-   allowed to be noticed) and *mechanical ↔ organic* (tween curves vs. springs).
+3. **Place the product on two axes.** *Productive ↔ expressive* (how noticeable
+   motion may be) and *mechanical ↔ organic* (tween curves vs. springs).
    Most tools sit productive and slightly organic. Output: a one-line positioning.
 4. **Define duration tokens.** Start from the scale below and adjust at most one step
    in either direction for brand. Output: token table.
@@ -53,8 +53,8 @@ Gather these. If one is missing, use the default in brackets.
    table with cubic-bezier values and spring equivalents.
 6. **Write choreography rules.** Stagger, sequencing, what moves first, direction
    conventions, and shared-element continuity. Output: rules list.
-7. **Define reduced-motion behavior.** For each pattern, what it becomes when
-   `prefers-reduced-motion: reduce` is set. Output: a mapping table.
+7. **Define reduced-motion behavior.** For each pattern, state what it becomes under
+   `prefers-reduced-motion: reduce`. Output: a mapping table.
 8. **Map to patterns.** Apply the tokens to the product's top 8–12 patterns
    (dialog, toast, dropdown, page transition, tab switch, list insert). Output: a
    pattern table anyone can implement from.
@@ -81,7 +81,7 @@ Copy that shape.
 
 Rules of thumb:
 - Anything a person triggers more than a few times a minute stays at or under 200ms.
-- Larger distance and larger surface area earn more time, not less.
+- Larger distance and surface area earn more time, not less.
 - Exits are about 20–30% faster than entrances. Leaving should get out of the way.
 - Keyboard-initiated actions (command menus, shortcuts) often want no animation at all.
 

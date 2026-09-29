@@ -42,7 +42,7 @@ Radix and Base UI expose the computed origin as a CSS variable
 (`--radix-dropdown-menu-content-transform-origin`, `--transform-origin`). Use it
 instead of hardcoding.
 
-Keyboard-opened command menus often skip the animation entirely; opening via a
+Keyboard-opened command menus often skip the animation; opening via a
 shortcut should feel instant.
 
 ---
@@ -122,8 +122,8 @@ Read Sonner's source before building your own; it handles the edge cases.
 ## 4. List reorder, insert, remove
 
 **Spec:** siblings slide to new positions with `spring-gentle`; inserted items fade
-and expand; removed items fade and collapse in 150ms. Reduced motion: no slide, items
-just appear and disappear with a 100ms fade.
+and expand; removed items fade and collapse in 150ms. Reduced motion: no slide; items
+appear and disappear with a 100ms fade.
 
 ```tsx
 <motion.ul layout>
@@ -184,7 +184,7 @@ visibly squashes mid-flight.
 
 **Spec:** section content rises 16px and fades in over 400–500ms ease-out when 20–30%
 of it is visible. Once only. Marketing pages only, never inside the app.
-Reduced motion: content is simply visible.
+Reduced motion: content is visible from the start.
 
 Pure CSS with scroll-driven animations (Chromium 115+, Safari 26+; progressive enhancement):
 

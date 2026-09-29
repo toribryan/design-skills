@@ -29,7 +29,7 @@ Report only failures, with location and the WCAG success criterion.
    by keyboard; no traps; custom widgets follow the ARIA Authoring Practices key
    model (arrows in menus, radios, tabs; Escape closes overlays).
 3. **Focus (2.4.3, 2.4.7, 2.4.11).** Logical order. A visible `:focus-visible`
-   indicator that is not obscured by sticky headers. Focus moves into dialogs and
+   indicator that sticky headers do not obscure. Focus moves into dialogs and
    returns to the trigger on close.
 4. **Names and roles (4.1.2, 1.1.1).** Icon-only buttons named. Decorative icons
    `aria-hidden`. Images have meaningful `alt` or empty `alt`. No `div` or `span`

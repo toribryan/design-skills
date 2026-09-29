@@ -67,7 +67,7 @@ Gather these. If one is missing, use the default in brackets.
    Model: [`references/heuristics.md`](references/heuristics.md), which lists what to
    look for and common violations per heuristic. Output: issues tagged H1–H10.
 5. **Hierarchy pass.** Squint test each screen: does the most important element read
-   first? One primary action per view? Output: issues tagged "Hierarchy".
+   first? Is there one primary action per view? Output: issues tagged "Hierarchy".
 6. **Clarity pass.** Labels, copy, icons without text, jargon, ambiguous states.
    Output: issues tagged "Clarity".
 7. **Consistency pass.** Same thing looks and behaves the same across screens and
@@ -170,7 +170,7 @@ subagent, and to the `copy-reviewer` subagent when clarity issues cluster in cop
 - Critiquing color and type on a gray wireframe
 - Reviewing only the happy path; no empty, error, loading, or long-content states
 - Issues without locations ("somewhere in settings the labels are inconsistent")
-- Citing a heuristic by number with no explanation of how it is violated
+- Citing a heuristic by number without explaining how the design violates it
 
 ## Related skills
 

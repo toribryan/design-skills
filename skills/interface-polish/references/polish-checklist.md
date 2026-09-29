@@ -20,7 +20,7 @@ modifier like `/10`.
 | Play, arrow, and chevron glyphs look centered in their containers | Nudge toward the pointy side's opposite: a play triangle moves right ~8–10% of its width. |
 | Circular and triangular icons look the same size as square ones | Scale them 5–10% larger, or use an icon set that already compensates (Lucide, Phosphor). |
 | Text in a button with an icon looks centered | With a leading icon, reduce the leading padding by ~2–4px (`pl-2.5 pr-3`). The icon's whitespace reads as padding. |
-| Left edges of stacked text, inputs, and buttons line up | Inputs and buttons have internal padding; the text inside should align with body text above, or the box edge should. Pick one and apply it on the whole screen. |
+| Left edges of stacked text, inputs, and buttons line up | Inputs and buttons have internal padding; align either the text inside or the box edge with the body text above. Pick one and apply it across the screen. |
 | Large headings align with body text on the left | Big type has side bearing. Pull display headings left by ~0.02–0.05em (`-ml-[0.04em]`) if the misalignment is visible. |
 | Baselines line up across adjacent columns | Use `items-baseline` on flex rows that mix sizes (label + value, price + unit). |
 | Avatar stacks, badges, and dots sit on the same center line | Check with a 1px horizontal guide in DevTools or a screenshot overlay. |
@@ -163,14 +163,14 @@ Layered shadow recipe:
 | Optimistic updates | Update immediately, roll back with a message on failure. |
 | Long content | Test with a 60-character name, a 5-line title, 1,000+ rows, and a 12-digit number. |
 | Missing content | No image, no avatar, no description: each has a designed fallback (initials avatar, neutral placeholder). |
-| Offline and slow network | Test at "Slow 4G" in DevTools. Nothing should flash or jump. |
+| Offline and slow network | Test at "Slow 4G" in DevTools. Nothing flashes or jumps. |
 | Success | Confirm without blocking: a toast or inline change, not a modal. |
 
 ---
 
 ## Quick scan (5 minutes)
 
-When there is no time for the full pass, check these eight:
+When the full pass will not fit, check these eight:
 
 1. Tab through: is every stop visible?
 2. Resize to 320px: anything overflow or overlap?

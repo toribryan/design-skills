@@ -37,8 +37,7 @@ that skill directly.
 
 ## Process
 
-1. **Place the work.** Use the phase map below to decide where the work actually
-   starts. Most requests arrive in the middle: "design a settings page" is phase 3
+1. **Place the work.** Use the phase map below to decide where the work starts. Most requests arrive in the middle: "design a settings page" is phase 3
    with phase 1 and 2 questions still open. Name the skipped phases and the risk of
    skipping each in one line.
 2. **Open a project log.** Model: [`templates/project-log.md`](templates/project-log.md).
@@ -68,7 +67,7 @@ that skill directly.
 | **6. Ship** | Is what shipped what was designed? | `design-handoff`, `design-to-code`, `visual-qa` | `visual-qa-reviewer` verdict ready; project checks pass |
 | **7. Tell** | What did we learn, and how do we show it? | `design-case-study` | Outcome measured against the brief's metrics |
 
-Brand and motion run alongside, not in sequence:
+Brand, motion, and marketing run alongside the phases, not in sequence:
 
 | Track | Skills | When it enters |
 | --- | --- | --- |
@@ -105,7 +104,7 @@ again after fixes.
 
 ## Output
 
-The project log, filled in as the work moves, plus each phase's own deliverable.
+The project log, filled in as the work moves, plus each phase's deliverable.
 At any point, the log answers: where are we, what was decided, why, and what is next.
 
 ## Verify

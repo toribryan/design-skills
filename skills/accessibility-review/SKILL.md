@@ -55,8 +55,8 @@ Gather these. If one is missing, use the default in brackets.
    (Deque reports about 57% by issue volume on its own data). If the browser is not
    available, say so and review code and designs manually. Output: axe results,
    deduplicated.
-3. **Check contrast.** Text, icons, borders of inputs, focus indicators, and states
-   (hover, disabled is exempt but check it is still perceivable), in light and dark.
+3. **Check contrast.** Text, icons, input borders, focus indicators, and states
+   (hover; disabled is exempt, but check it is still perceivable), in light and dark.
    Output: failing pairs with measured ratios.
 4. **Keyboard pass.** Unplug the mouse. Walk every task with Tab, Shift+Tab, Enter,
    Space, Escape, and arrow keys. Output: failures with the step where they occur.
@@ -77,8 +77,8 @@ Gather these. If one is missing, use the default in brackets.
 
 For a design-stage review in Figma, run steps 3, 5 (by reviewing mobile frames), and
 6 (reading order, labels, and focus states drawn). Use the Figma MCP's
-`get_variable_defs` to pull color pairs and `get_screenshot` for frames. Note that
-keyboard and screen reader passes wait for a build.
+`get_variable_defs` to pull color pairs and `get_screenshot` for frames. Keyboard
+and screen reader passes wait for a build.
 
 ## Standards
 
@@ -92,7 +92,7 @@ keyboard and screen reader passes wait for a build.
 | Focus indicator | 1.4.11 (and 2.4.13 at AAA) | 3:1 |
 | Disabled controls, logos, decoration | Exempt | Keep them perceivable anyway |
 
-Conformance is judged by the WCAG 2 ratio. Use **APCA** (the perceptual model in
+The WCAG 2 ratio decides conformance. Use **APCA** (the perceptual model in
 the WCAG 3 drafts, not yet normative) as a second check, because the WCAG 2 formula
 overstates contrast for dark color pairs, which matters in dark mode. APCA
 guidance in Lc (lightness contrast):

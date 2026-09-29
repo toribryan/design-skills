@@ -16,7 +16,7 @@ The job is to make the design real without making anything up. Every value in th
 output traces to a token, a component, or a written decision; nothing is eyeballed
 and nothing is hard-coded. The design is the spec for intent and the codebase is the
 spec for vocabulary: when they disagree, the codebase's tokens and components win
-unless the design is deliberately introducing something new. The output is a
+unless the design deliberately introduces something new. The output is a
 component or screen that matches the design at every breakpoint and in every state,
 verified by screenshot rather than by memory.
 
@@ -73,8 +73,8 @@ If the Figma MCP is connected, use it in this order:
 3. `get_variable_defs` for the variables the node uses. These are the design's token
    names; map them to the codebase's (in Fibo they match one to one).
 4. `get_screenshot` for the reference image used in the final comparison.
-5. `get_code_connect_map` to find Figma components already mapped to code. A mapped
-   component is used as-is, not rebuilt.
+5. `get_code_connect_map` to find Figma components already mapped to code. Use a mapped
+   component as-is; do not rebuild it.
 
 If Figma MCP is not connected, say so in one line and work from the screenshot.
 
@@ -84,8 +84,8 @@ If Figma MCP is not connected, say so in one line and work from the screenshot.
    (add a variant), *composition* (assemble from existing), or *new* (justify it).
    Output: an inventory table. Most screens should be 80%+ existing.
 2. **Map tokens.** For every color, space, radius, type style, and shadow, find the
-   codebase token. Output: a mapping table; values that match no token go on a list
-   for the designer, and the closest token is used meanwhile.
+   codebase token. Output: a mapping table. List values that match no token for the
+   designer, and use the closest token meanwhile.
 3. **Write the structure.** Semantic HTML first, no styling: landmarks, headings in
    order, lists, buttons, labelled fields. Output: markup that makes sense with CSS off.
 4. **Lay it out.** Flex for one axis, grid for two, mobile first. Figma auto layout

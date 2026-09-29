@@ -24,7 +24,7 @@ themselves, tests, and generated output.
 1. **Color literals.** `#[0-9a-fA-F]{3,8}`, `rgb(`, `rgba(`, `hsl(`, `oklch(` in
    components or pages. Also arbitrary Tailwind values like `bg-[#...]`.
 2. **Primitive tokens in components.** Ramp steps (`neutral-500`, `red-700`,
-   `--gray-9`) where a semantic role should be used.
+   `--gray-9`) where a semantic role belongs.
 3. **Opacity modifiers on token colors.** `bg-primary/10`, `text-foreground/60`,
    when the system names those roles (`-subtle`, `-hover`, `-ring`). Figma cannot
    bind an opacity modifier to a variable, so these drift.

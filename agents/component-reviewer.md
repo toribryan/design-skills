@@ -35,9 +35,9 @@ Check each item. Report only the ones that fail, with file and line.
    marker (`data-slot` or equivalent). Imports use the project's aliases. Every
    prop is documented.
 4. **API.** Variants are a closed set, not free strings. Boolean props do not
-   combine into impossible states. State is expressed through ARIA or data
-   attributes (`aria-invalid`, `aria-expanded`, `data-disabled`) rather than
-   parallel props. Controlled and uncontrolled use both work if the part holds state.
+   combine into impossible states. ARIA or data attributes express state
+   (`aria-invalid`, `aria-expanded`, `data-disabled`) rather than parallel
+   props. Controlled and uncontrolled use both work if the part holds state.
 5. **States.** Default, hover (pointer only), focus-visible, active, disabled, and
    where relevant loading, invalid, and selected all have a defined look.
 6. **Accessibility.** Keyboard reachable in a sensible order. Visible

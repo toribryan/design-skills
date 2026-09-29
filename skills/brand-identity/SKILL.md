@@ -76,7 +76,7 @@ product (use `color-system` and `typography-system`), or icon set production (us
 
 ### Territories
 
-- Exactly three, and genuinely different: vary at least two of mark style, color
+- Exactly three, and different: vary at least two of mark style, color
   strategy, and type genre between any two territories.
 - Each is named ("Signal", "Workshop", "Field Notes"), not numbered, so discussion is
   about ideas.
@@ -151,7 +151,7 @@ for the top applications (slides, social, OG image at 1200x630).
 
 ## Verify
 
-The identity is done when it has been seen, by hand, at the extremes: the symbol at
+The identity is done when you have seen it, by hand, at the extremes: the symbol at
 16px in a browser tab, the app icon on a real home screen next to competitors, the
 wordmark on a photo, every palette pair in light and dark, and the full system on the
 8–12 applications. Then confirm:

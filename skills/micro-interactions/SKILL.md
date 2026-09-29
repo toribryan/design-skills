@@ -53,8 +53,8 @@ duration and easing scale (use `motion-language`), or microcopy wording (use `ux
    Output. Copy that shape. Output: a table with visual change, timing, copy, and
    screen-reader announcement per state.
 4. **Decide loops and modes.** Does the interaction change on repeat (collapse the
-   tutorial hint after 3 uses)? Does it have a mode (edit mode)? Avoid modes unless the
-   mode is clearly shown. Output: loop and mode notes, or "none".
+   tutorial hint after 3 uses)? Does it have a mode (edit mode)? Avoid modes unless they
+   are clearly shown. Output: loop and mode notes, or "none".
 5. **Plan the failure path.** Offline, timeout, permission denied, validation error.
    Output: what the person sees and how they recover.
 6. **Place it on a shelf.** Following Fibo's two-shelf rule, feedback on standard
@@ -77,8 +77,8 @@ duration and easing scale (use `motion-language`), or microcopy wording (use `ux
 | > 10s | Person will switch tasks | Determinate progress, time estimate, and a way to leave and come back |
 
 Practical rules on top of those limits:
-- Delay showing a spinner by ~300ms, then keep it for at least ~500ms once shown.
-  This stops a spinner flashing for 50ms on fast responses.
+- Delay a spinner by ~300ms, then keep it for at least ~500ms once shown.
+  This stops it flashing for 50ms on fast responses.
 - Skeletons for content areas with a known shape; spinners for actions on a control.
 - Skeleton shimmer at 1.5–2s per cycle. Faster reads as anxious.
 
@@ -168,7 +168,7 @@ inputs, copy-to-clipboard, like, and save.
 
 ## Verify
 
-The spec is done when it has been tried in a prototype or build: by mouse, by touch
+The spec is done when you have tried it in a prototype or build: by mouse, by touch
 (or device emulation), and by keyboard alone; in light and dark; with reduced motion
 turned on; with a screen reader (VoiceOver or NVDA) announcing each state change; and
 with the network throttled to "Slow 4G" plus one forced failure. Then confirm:

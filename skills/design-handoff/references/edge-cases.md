@@ -1,7 +1,7 @@
 # Edge-case hunt
 
-Walk every frame in the handoff through these questions. Each one either has an
-answer in the package, a stated default, or "not applicable" with a reason. A blank
+Walk every frame in the handoff through these questions. Each one gets an answer
+in the package, a stated default, or "not applicable" with a reason. A blank
 is a question the engineer will have to answer alone.
 
 ## Quantity

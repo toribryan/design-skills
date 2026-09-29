@@ -51,7 +51,7 @@ Gather these. If one is missing, use the default in brackets.
 
 1. **Write the research questions.** What the team needs to learn, not what it will
    ask participants. "How do admins decide when an import is trustworthy?" is a research
-   question; nobody should be asked it directly. Output: 3–5 questions, each linked to
+   question; never ask a participant it directly. Output: 3–5 questions, each linked to
    an assumption.
 2. **Write the screener.** Screen on behavior in a recent, specific window ("imported
    data into a tool in the last 30 days"), not on self-description ("tech savvy").
@@ -159,8 +159,8 @@ are not data. Note them, then redirect to a specific past instance.
   per observation, color by participant. If not, cluster in a Markdown file with one
   line per note and a participant code; say so in one line.
 - **Transcripts.** If recordings are transcribed, tag each observation with participant
-  code and timestamp (`P4 12:30`) so every insight can be traced.
-- **Analytics.** If connected, check whether a behavior participants describe shows up
+  code and timestamp (`P4 12:30`) so you can trace every insight.
+- **Analytics.** If connected, check that a behavior participants describe shows up
   at scale before calling it a pattern.
 
 ## Output

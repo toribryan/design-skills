@@ -16,9 +16,9 @@ Polish is the set of small decisions people never notice when they are right and
 always feel when they are wrong: a number that jitters while it counts, a button
 whose icon sits 1px low, a hover state that sticks on a phone. This skill runs a
 fixed pass over a screen or component, in the browser and in code, and fixes what it
-finds. The standard is the one set by Rauno Freiberg's Interaction Guidelines and the
+finds. The standard comes from Rauno Freiberg's Interaction Guidelines and the
 work of Emil Kowalski and Paco Coursey: nothing jumps, nothing lies, nothing is
-harder to hit than it looks, and every state has been designed.
+harder to hit than it looks, and every state is designed.
 
 ## When to use
 
@@ -139,8 +139,8 @@ html { scrollbar-gutter: stable; }
 </div>
 ```
 
-On Tailwind v3, set `future: { hoverOnlyWhenSupported: true }` instead of writing
-the media query by hand in each component. Alpha belongs in the token
+On Tailwind v3, set `future: { hoverOnlyWhenSupported: true }` instead of hand-writing
+the media query in each component. Alpha belongs in the token
 (`--ring-subtle: color-mix(in oklch, var(--ring) 50%, transparent)`), not in a class
 like `ring-ring/50`, so Figma and code share one name.
 

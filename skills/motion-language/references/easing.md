@@ -8,7 +8,7 @@ start, the second pair the end.
 - **Fast start, soft landing (ease-out):** small `x1`, large `y1`. The element responds
   immediately and settles. Right for anything reacting to a person.
 - **Soft start, fast end (ease-in):** large `x1`, small `y1`. Feels like it is
-  accelerating away. Right for exits, wrong for entrances.
+  speeding away. Right for exits, wrong for entrances.
 - **Symmetric (ease-in-out):** for movement between two resting points on screen.
 
 ## Curves by strength
@@ -45,10 +45,10 @@ as a toy.
 
 ## Converting springs to CSS
 
-Modern browsers support `linear()` easing, which can approximate any spring as a list
-of points. Generate one with Easing Wizard or the `linear()` generator, and pair it
-with the spring's approximate settle time as the `transition-duration`. Provide a
-cubic-bezier fallback for older browsers:
+Modern browsers support `linear()` easing, which approximates any spring as a list of
+points. Generate one with Easing Wizard or the `linear()` generator, and set the
+spring's approximate settle time as the `transition-duration`. Add a cubic-bezier
+fallback for older browsers:
 
 ```css
 .panel {

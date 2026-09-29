@@ -73,7 +73,7 @@ sizing rule.
   least 1px padding; Material uses 2dp.
 - Keyline shapes, so different forms read as the same size: circle 20px diameter,
   square 18×18, portrait rectangle 16×20, landscape rectangle 20×16.
-- Circles and triangles are drawn 5–10% larger than squares to look equal.
+- Draw circles and triangles 5–10% larger than squares so they look equal.
 - Align strokes to the pixel grid at the primary size: with a 2px stroke, put
   path coordinates on whole pixels so edges land on pixel boundaries.
 

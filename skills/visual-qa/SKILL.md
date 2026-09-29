@@ -157,7 +157,7 @@ The QA pass is done when:
 - [ ] The report contains no passing items
 - [ ] The report ends with a verdict
 
-Delegate the comparison to the `visual-qa-reviewer` subagent when there are many
+Delegate the comparison to the `visual-qa-reviewer` subagent when the scope has many
 screens: give it the capture folder and the Figma references; it reports failures
 only and ends with a verdict. Send focus and contrast findings to the
 `accessibility-auditor` subagent and suspected raw values in code to the

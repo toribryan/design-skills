@@ -6,8 +6,8 @@ stakeholders tell you about the organization, not about users' behavior.
 
 ## Who to talk to
 
-Aim for 4–8 people across these roles. Missing a role is a common reason a project is
-blocked late.
+Aim for 4–8 people across these roles. Projects often get blocked late by a role
+nobody talked to.
 
 | Role | Why they matter | What they usually know |
 | --- | --- | --- |
@@ -24,7 +24,7 @@ blocked late.
 - 30 minutes, one person at a time. Group sessions produce the most senior person's
   view, repeated.
 - Same core questions for everyone, so answers can go in one comparison table.
-- Record or take verbatim notes. Paraphrase loses the disagreements.
+- Record, or take verbatim notes. Paraphrase loses the disagreements.
 - Say at the start: "I'll share a summary with everyone I talk to, without attributing
   quotes." People are more candid when they know how the notes will be used.
 

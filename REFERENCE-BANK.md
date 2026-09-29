@@ -1,7 +1,7 @@
 # Reference Bank
 
 The curated sources these skills point at. This bank follows the structure of
-[designeer.xyz](https://designeer.xyz), which is a curated index of interface craft,
+[designeer.xyz](https://designeer.xyz), a curated index of interface craft,
 component libraries, design systems, AI tools, and design engineers. Its sections are
 **Inspiration**, **Visuals**, **Components**, **Utilities**, **Build**, and **Designers**.
 

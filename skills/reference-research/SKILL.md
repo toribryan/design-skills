@@ -36,7 +36,7 @@ design (use `design-critique`).
 
 Gather these. If one is missing, use the default in brackets.
 
-- **The question**: what specifically you need to learn ["how do products handle
+- **The question**: exactly what you need to learn ["how do products handle
   {flow} for {user}"; write it and state it]
 - **Scope**: which flow, screen, or section [the primary task from the brief]
 - **Platform**: iOS, Android, web [match the product; web if unknown]
@@ -50,14 +50,14 @@ Gather these. If one is missing, use the default in brackets.
 ## Process
 
 1. **Write the research question and product set.** One sentence, plus a table of
-   5–10 products with a reason each is included. At least 2 must be outside the direct
+   5–10 products with why each is included. At least 2 must be outside the direct
    category (a bank studying a travel app's itinerary view). Output: question and
    product table.
 2. **Collect.** Search the sources below, in order of fit. Capture the full flow, not
    only the hero screen: entry point, each step, confirmation, the empty state, the
-   error state. Aim for 20–40 captures in total. Output: raw captures with source link,
+   error state. Aim for 20–40 captures. Output: raw captures with source link,
    product, platform, and date.
-3. **Annotate every keeper.** For each capture kept, write what it does, why it works
+3. **Annotate every keeper.** For each kept capture, write what it does, why it works
    (the mechanism), the trade-off it makes, and whether it applies to your context.
    Model: [`templates/reference-board.md`](templates/reference-board.md); copy that
    shape. Output: 12–25 annotated references. Discard the rest.
@@ -174,8 +174,8 @@ Research is done when all of these are true:
 - [ ] An avoid list exists, including any dark patterns seen
 - [ ] No Dribbble shot is used as evidence
 
-Hand the principles and the board to the `design-critic` agent as the comparison set
-when the wireframes that follow are reviewed.
+Give the principles and the board to the `design-critic` agent as the comparison set
+when it reviews the wireframes that follow.
 
 ## Anti-patterns
 

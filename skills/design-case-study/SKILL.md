@@ -106,14 +106,14 @@ presenting in-progress work for feedback (use `design-critique`).
 
 - 800–1,500 words and 6–12 visuals for a written case study; 3–6 minutes of reading.
 - Portfolio presentations: 3–4 minutes per project in a 45-minute review, 2–3 projects.
-- If it is longer, it is usually carrying process that did not change the outcome.
+- A longer one usually carries process that did not change the outcome.
 
 ### Outcome and metrics
 
 - Report the metric, the baseline, the change, the time window, and your contribution:
   "Activation rose from 22% to 31% in the 8 weeks after launch (A/B test, 50/50 split)."
 - Relative numbers are fine under NDA: "activation up 40%".
-- If there are no metrics, use the next best evidence: usability test results (task
+- Without metrics, use the next best evidence: usability test results (task
   success went from 3/8 to 7/8), adoption, qualitative quotes, or what the work
   enabled. Say plainly why there are no numbers (not launched, left before launch).
 - Never invent or round up numbers. Interviewers ask.
@@ -125,8 +125,8 @@ presenting in-progress work for feedback (use `design-critique`).
   brand colors to neutrals, replace real data with realistic fake data, blur or
   redraw sensitive screens.
 - Convert absolute metrics to relative ones.
-- Password-protect only when necessary; many reviewers will not open it. If you do,
-  put the password in the application.
+- Password-protect only when necessary; many reviewers will not open a locked page. If
+  you lock it, put the password in the application.
 - When little can be shown, tell the decision story in words and redraw simplified
   diagrams of the flow.
 
@@ -139,8 +139,8 @@ reflection, plus a visual list with captions and an NDA note.
 ## Verify
 
 The case study is done when a stranger has read it for five minutes and can retell
-the problem, your role, one decision with its tradeoff, and the outcome, and when it
-has been read on a phone at 375px and on a desktop. Then confirm:
+the problem, your role, one decision with its tradeoff, and the outcome, and you
+have read it on a phone at 375px and on a desktop. Then confirm:
 
 - [ ] The headings alone tell the story
 - [ ] The summary block states the outcome before any scrolling

@@ -23,7 +23,7 @@ mapping per mode, a contrast report, and a script that reruns the report.
 
 - Building or rebuilding a palette, or adding a brand hue to a system
 - Contrast failures in an audit, or status colors that look muddy or neon
-- Dark mode was produced by inverting light mode and looks wrong
+- Dark mode is an inverted light mode and looks wrong
 - Choosing which step of a ramp a role should use
 - Charts need a palette that works with the UI colors
 
@@ -67,10 +67,10 @@ roles (`pnpm dlx shadcn@latest add @fibo/button`, then copy the `:root` and
 6. **Move steps until pairs pass, and record why.** If a status fill fails at 600,
    try 700; write the measured numbers in a comment beside the token. Output:
    the adjusted mapping with the measurements in comments.
-7. **Design dark mode separately.** Re-pick steps for dark surfaces rather than
+7. **Design dark mode separately.** Re-pick steps for dark surfaces instead of
    mirroring the light scale. Output: the dark column, measured.
-8. **Record known gaps.** Any pair that stays under target is listed, with
-   where it is used and why it is accepted. Pin the list in a test so a new gap
+8. **Record known gaps.** List any pair that stays under target, with where it
+   is used and why you accept it. Pin the list in a test so a new gap
    cannot slip in. Output: the gap list, and a test.
 
 ## Standards
@@ -100,7 +100,7 @@ only Lc 51 in APCA, below the Lc 60 a secondary text role should reach.
   backgrounds, 3–5 component fills, 6–8 borders, 9–10 solid fills, 11–12 text).
   Choose one model per system.
 - Chroma peaks mid-ramp and falls at both ends. Forcing high chroma at L 0.97 or
-  L 0.2 pushes colors out of sRGB; the browser will clip them.
+  L 0.2 pushes colors out of sRGB, and the browser clips them.
 - Hue drifts slightly along a good ramp (yellows warm toward orange as they
   darken). Tailwind's ramps already do this; do not flatten it.
 

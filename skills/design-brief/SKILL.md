@@ -66,7 +66,7 @@ Gather these. If one is missing, use the default in brackets.
    least one guardrail. Read [`references/heart-metrics.md`](references/heart-metrics.md)
    before choosing. Output: a metrics table with baselines and targets.
 5. **Set scope.** In scope, non-goals, and "not now" items. Non-goals are things a
-   reasonable person would expect to be included and that are deliberately excluded.
+   reasonable person would expect in scope that you deliberately exclude.
    Output: three lists.
 6. **List constraints and risks.** Constraints are fixed; risks are uncertain. For each
    risk, give likelihood, impact, and a mitigation or an owner. Output: two tables.
@@ -76,10 +76,10 @@ Gather these. If one is missing, use the default in brackets.
    reason. Output: an options-and-choices section.
 8. **Set the timeline.** Milestones with dates and a review at each: brief sign-off,
    concepts, critique, test, handoff. Output: a milestone table.
-9. **List open questions.** Each with an owner and a date by which it must be answered,
-   and what happens if it is not. Output: the open-questions table.
-10. **Get sign-off.** The decision-maker approves in writing. Any change after that is
-    added to the change log at the bottom, dated, with the reason. Output: an approved
+9. **List open questions.** Each with an owner, an answer-by date, and what happens if
+   it is not answered. Output: the open-questions table.
+10. **Get sign-off.** The decision-maker approves in writing. Add any later change to
+    the change log at the bottom, dated, with the reason. Output: an approved
     brief.
 
 ## Standards

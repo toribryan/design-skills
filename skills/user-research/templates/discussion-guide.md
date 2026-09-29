@@ -20,7 +20,7 @@
 > Thanks for making time. I'm {name}, and {note-taker} is taking notes. We're trying to
 > learn how people {broad activity}, so there are no right or wrong answers, and
 > nothing you say will hurt our feelings. We're not testing you. Is it okay if we
-> record? It's only used by the team and we'll remove your name from anything we share.
+> record? Only the team will use it, and we'll remove your name from anything we share.
 
 ## Warm-up (5 min)
 
@@ -54,7 +54,7 @@ that?" "Can you show me?"*
 ## Wrap-up (5 min)
 
 - Is there anything I should have asked but didn't?
-- Is there someone else who handles this differently that we should talk to?
+- Who else handles this differently that we should talk to?
 
 > Thank you. You'll receive {incentive} within {48 hours}.
 

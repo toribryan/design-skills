@@ -3,7 +3,7 @@
 Claude skills for the whole product design process: discovery through shipped code,
 plus design systems, interface craft, motion, and brand.
 
-Includes 32 skills and 7 read-only reviewer subagents, as plain folders you copy or
+It has 32 skills and 7 read-only reviewer subagents, as plain folders you copy or
 link into Claude Code.
 
 - **Reference bank:** [designeer.xyz](https://designeer.xyz), the curated index of
@@ -120,7 +120,7 @@ Fibo's [`component-reviewer`](https://github.com/toribryan/fibo/blob/main/.claud
 
 ## Connected tools
 
-Skills use these when they are connected and work without them when they are not:
+Skills use these when connected and work without them otherwise:
 Figma MCP (read frames and variables, write designs), Mobbin MCP (real screens and
 flows), shadcn MCP (browse and install registry parts, including `@fibo`), and a
 browser via Playwright (screenshots and visual QA).

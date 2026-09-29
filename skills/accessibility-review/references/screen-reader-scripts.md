@@ -3,7 +3,7 @@
 Test with the pairings people actually use: VoiceOver with Safari on macOS and iOS,
 NVDA with Chrome or Firefox on Windows, TalkBack with Chrome on Android. (JAWS with
 Chrome is the other common desktop pairing; it needs a license.) One desktop and one
-mobile pairing covers most issues. Record what is announced verbatim.
+mobile pairing covers most issues. Record announcements verbatim.
 
 ## VoiceOver (macOS, Safari)
 

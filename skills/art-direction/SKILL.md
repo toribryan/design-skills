@@ -16,8 +16,8 @@ anyone designs screens. It sits between the identity (the fixed system) and the
 execution (the pages, campaigns, and assets). The output is a direction deck: two or
 three named territories, one chosen, and the rules that let designers, photographers,
 illustrators, and 3D artists produce work that belongs together. The standard: every
-reference is annotated with what to take from it, and every rule can be used to reject
-a real piece of work.
+reference is annotated with what to take from it, and every rule can reject a real
+piece of work.
 
 ## When to use
 
@@ -32,7 +32,7 @@ collecting UI patterns for a feature (use `reference-research`), or page structu
 
 ## Inputs
 
-- **Identity guidelines** [if none, direction must also propose color and type; say so]
+- **Identity guidelines** [if none, the direction must also propose color and type; say so]
 - **Brand platform** attributes [from `brand-strategy`; if missing, write 3–5 working
   attributes and mark them provisional]
 - **The brief**: what is being made, for whom, where it appears, and what it must
@@ -65,14 +65,14 @@ collecting UI patterns for a feature (use `reference-research`), or page structu
 7. **Write the rules.** Photography, illustration, 3D, composition, type in use, color
    in use. Output: rule pages with approved and rejected examples.
 8. **Define product versus marketing.** Output: a table of which rules apply where.
-9. **Crit against the direction.** Every subsequent review starts from the rules, not
+9. **Crit against the direction.** Every later review starts from the rules, not
    preference. Output: a crit checklist derived from the rules.
 
 ## Standards
 
 ### References
 
-- Annotated: every image has a line saying what to take. Unannotated boards get read
+- Annotated: every image has a line saying what to take. Unannotated boards read
   as "make it look like this" and produce copies.
 - At least a third from outside the category, and some from outside screens entirely.
   A board made only of competitors produces the category average.
@@ -113,7 +113,7 @@ presets so assets from different artists match.
 
 ### Composition
 
-- One focal point per frame or section. Measure: squint; the first thing seen should
+- One focal point per frame or section. Measure: squint; the first thing you see should
   be the intended one.
 - A defined grid and at least one rule for breaking it (full-bleed images only, or
   display type may cross columns).
@@ -144,8 +144,8 @@ checklist. Keep it to 20–35 slides or pages.
 
 ## Verify
 
-The direction is done when the chosen territory has been applied to one real
-marketing surface and one product surface, viewed at mobile (375px) and desktop
+The direction is done when you have applied the chosen territory to one real
+marketing surface and one product surface and viewed both at mobile (375px) and desktop
 (1440px) widths, in light and dark where the product supports both, and when someone
 outside the project has used the rules to reject an off-direction image correctly.
 Then confirm:

@@ -15,7 +15,7 @@ description: >-
 
 A handoff is done when an engineer who was not in any of the design reviews can build
 the feature correctly, and a reviewer can tell whether they did. That means the
-package answers questions before they are asked: what happens with 200 items, what
+package answers questions before anyone asks them: what happens with 200 items, what
 the error says, where focus goes when the dialog closes, which token that gray is.
 Most handoff failures are not missing pixels; they are missing decisions. This skill
 finds the undecided parts, decides them or flags them, and packages the rest in one
@@ -111,8 +111,8 @@ work from exports.
 - Every value is a token name. "#6B7280" in a spec is a defect. In Fibo-shaped
   systems the Figma variable and the CSS token share one name, so the spec, the
   file, and the code all say `muted-foreground`.
-- No opacity-modified colors in the design. If a tint is needed, it is a named role
-  (`destructive-subtle`), because an engineer cannot reproduce "red at 10%" reliably.
+- No opacity-modified colors in the design. If the design needs a tint, make it a named
+  role (`destructive-subtle`), because an engineer cannot reproduce "red at 10%" reliably.
 - Use Figma's native annotations (Dev Mode) or a single annotation component. One
   style, one color, never overlapping the design.
 - Number interactions (1, 2, 3) and reference those numbers in the interaction table.

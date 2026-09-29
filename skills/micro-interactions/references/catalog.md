@@ -19,7 +19,7 @@ States and timings for common controls. Timings use the `motion-language` tokens
 | Error | Returns to rest; message near the button or field | 150ms | Button itself does not shake unless the brand is playful |
 | Disabled | Reduced contrast, `cursor: not-allowed` | | Prefer enabled + validation message; if disabled, explain why nearby |
 
-Double submits: ignore clicks while loading, do not rely on `disabled` alone
+Double submits: ignore clicks while loading; do not rely on `disabled` alone
 (it drops focus).
 
 ---
@@ -100,8 +100,8 @@ on the button; the count is not part of the accessible name.
 ## Save / bookmark to collection
 
 Optimistic save, then a small inline confirmation ("Saved to Reading list · Change")
-for 4–6s, giving a shortcut to change the destination. Undo available for as long
-as the confirmation is visible.
+for 4–6s, giving a shortcut to change the destination. Undo stays available while
+the confirmation is visible.
 
 ---
 

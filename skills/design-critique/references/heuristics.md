@@ -68,7 +68,7 @@ Minimize memory load by making elements, actions, and options visible.
 - Are recent items, suggestions, and previews available?
 
 Common violations: IDs that must be copied between screens; icon-only toolbars with no
-labels or tooltips; filters that are applied but not shown.
+labels or tooltips; applied filters that are not shown.
 
 ## H7. Flexibility and efficiency of use
 

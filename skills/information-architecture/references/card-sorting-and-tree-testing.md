@@ -47,7 +47,7 @@ generate, test to validate.
 - **Participants:** 50+ per round (standard guidance from Optimal Workshop and others),
   because results are read as percentages per task.
 - **Tree:** the proposed hierarchy as text only, no visual design, full depth.
-- **Tasks:** 8–10 per participant, randomized order. Written as a goal in the user's
+- **Tasks:** 8–10 per participant, randomized order. Write each as a goal in the user's
   words, never using a label from the tree. Bad: "Find billing settings." Good: "You
   were charged twice this month. Where would you go to check?"
 - **Metrics per task:**

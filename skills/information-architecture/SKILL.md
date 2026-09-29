@@ -56,7 +56,7 @@ Gather these. If one is missing, use the default in brackets.
    attributes, relationships, and the actions on each. This is object-oriented UX's
    ORCA process (Sophia Prater): Objects, Relationships, Calls to action, Attributes.
    Output: an object map, one row per object.
-3. **Choose organization schemes.** For each area, decide how content is grouped: by
+3. **Choose organization schemes.** For each area, decide how to group content: by
    object, task, audience, time, or alphabet (after Rosenfeld, Morville and Arango's
    organization systems). Mix at most two schemes at one level. Output: a scheme per
    area, with the reason.
@@ -152,7 +152,7 @@ read-only or archived.
 ## Tools
 
 - **Codebase.** Read the router, nav components, and data schema before drawing
-  anything. The real structure is often different from the one in people's heads.
+  anything. The real structure often differs from the one in people's heads.
 - **Mermaid.** Sitemaps and flows go in Mermaid code blocks so they diff in version
   control and render in GitHub and most docs tools.
 - **Figma MCP.** If connected, `generate_diagram` can produce the sitemap or flows in

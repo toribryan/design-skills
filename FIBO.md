@@ -22,7 +22,7 @@ project. Use Fibo for the reasoning, not the names.
 
 ## How Fibo works with agents
 
-This is the part of Fibo that shaped this collection most. Fibo is set up so a coding
+This part of Fibo shaped this collection most. Fibo is set up so a coding
 agent can add a component and get it right on the first pass, and the collection
 copies that setup: its skill format and its reviewer subagents both come from here.
 
@@ -34,8 +34,8 @@ copies that setup: its skill format and its reviewer subagents both come from he
 | **Decision records** | [`plans/`](https://github.com/toribryan/fibo/tree/main/plans) | Numbered, never reused. Four questions: what is changing, why now, what the options were, what was chosen. Kept after shipping as the record of why. |
 | **Agent-readable docs** | [`llms.txt`](https://fibo.toribryan.com/llms.txt), `components.meta.json` | Every part with its install command, and an explicit statement that the list is complete, so an agent does not go looking for parts that do not exist. |
 | **Pre-approved checks** | [`.claude/settings.json`](https://github.com/toribryan/fibo/blob/main/.claude/settings.json) | The lint, typecheck, build, and format commands are allowlisted, so agents run the checks without asking; `.env` reads are denied. |
-| **Shipped MCP** | [`.mcp.json`](https://github.com/toribryan/fibo/blob/main/.mcp.json) | The shadcn MCP server is configured in the repo, so agents can browse and install registry parts. |
-| **Human mirror** | [`CONTRIBUTING.md`](https://github.com/toribryan/fibo/blob/main/CONTRIBUTING.md), PR template | Humans are pointed at the same skill file agents use ("Coding agents use the same file"). The PR checklist restates the definition of done. |
+| **Shipped MCP** | [`.mcp.json`](https://github.com/toribryan/fibo/blob/main/.mcp.json) | The repo configures the shadcn MCP server, so agents can browse and install registry parts. |
+| **Human mirror** | [`CONTRIBUTING.md`](https://github.com/toribryan/fibo/blob/main/CONTRIBUTING.md), PR template | It points humans at the same skill file agents use ("Coding agents use the same file"). The PR checklist restates the definition of done. |
 
 What this collection takes from it:
 
@@ -75,7 +75,7 @@ Turborepo.
 | **Achromatic by default.** No brand hue. `primary` is a neutral; color only carries meaning (destructive, success, warning, info). | Color as signal, not decoration. A restrained base makes status legible. | `color-system`, `brand-identity`, `art-direction` |
 | **One name on both sides.** Every token in `globals.css` matches a Figma variable one to one. | Token names are a contract between design and code. | `design-tokens`, `design-handoff`, `design-system-audit` |
 | **Opacity gets a name.** No `bg-destructive/10`. Instead `-subtle`, `-hover`, `-ring` roles, because Figma cannot bind an opacity modifier to a variable. | Anything a designer must pick needs a name. Keep alpha in one place. | `design-tokens`, `color-system` |
-| **Contrast is measured.** Status tones sit on the 700 step in light mode (600 measured 3.3:1 with white text) and 400 in dark. Tints are 8% light, 20% dark. | Choose steps by measurement, and write the measurement down next to the choice. | `color-system`, `accessibility-review` |
+| **Contrast is measured.** Status tones sit on the 700 step in light mode (600 measured 3.3:1 with white text) and 400 in dark. Tints are 8% light, 20% dark. | Choose steps by measurement, and record the measurement next to the choice. | `color-system`, `accessibility-review` |
 | **Yours once installed.** Parts copy in as source via the registry. | Distribution model shapes API design: parts must be readable and editable. | `component-api-design`, `design-to-code` |
 | **Two shelves.** *Base components* depend only on Base UI, cva, and lucide. *Special components* are playful, built for one moment, and may use `motion`. | Separate the dependable core from expressive parts, and give each different rules. | `component-api-design`, `motion-implementation`, `micro-interactions` |
 
@@ -144,8 +144,8 @@ the registry, and `llms.txt`.
 ## Quality gates
 
 A change is done when `format:check`, `lint` (zero warnings), `build`,
-`typecheck`, and `test` all pass, and the part has been opened in Storybook in
-both themes with the keyboard path checked. Testing has four layers:
+`typecheck`, and `test` all pass, and someone has opened the part in Storybook in
+both themes and checked the keyboard path. Testing has four layers:
 
 1. **Story tests:** every story renders in Chromium and fails on an axe violation.
 2. **Interaction tests:** a `play` function on `Default` drives the part by
@@ -154,5 +154,5 @@ both themes with the keyboard path checked. Testing has four layers:
 4. **Visual regression:** Chromatic snapshots every story on pull requests.
 
 The [theme creator plan](https://github.com/toribryan/fibo/blob/main/plans/001-theme-creator.md)
-is a good model for writing up a design decision with rejected alternatives: it
+models a design-decision write-up with rejected alternatives: it
 records three layouts that were tried and why the shipped one won.

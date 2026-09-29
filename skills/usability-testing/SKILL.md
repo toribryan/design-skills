@@ -19,7 +19,7 @@ after, with each issue tied to observed behavior and rated for severity.
 
 ## When to use
 
-- A prototype or live product needs evidence before it ships or before more is built
+- A prototype or live product needs evidence before it ships or before the team builds more
 - Choosing between two concepts with behavior, not preference
 - A critique found severity-3+ issues and the team disputes them
 - Benchmarking a flow before and after a redesign (SUS, task success)
@@ -27,8 +27,8 @@ after, with each issue tied to observed behavior and rated for severity.
 
 **Not for:** learning about people's needs and context before there is a design (use
 `user-research`), an expert review without participants (use `design-critique`), or
-an accessibility conformance audit (use `accessibility-review`; testing with disabled
-participants is in scope here, though).
+an accessibility conformance audit (use `accessibility-review`). Testing with disabled
+participants is in scope here.
 
 ## Inputs
 

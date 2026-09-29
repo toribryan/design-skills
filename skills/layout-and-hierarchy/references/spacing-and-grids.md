@@ -19,11 +19,11 @@ existing values first; use these tables when there are none.
 | `space-24` | 96 | 6 | Between sections (marketing, desktop) |
 | `space-32` | 128 | 8 | Hero padding, very large separations |
 
-Token names follow Tailwind's convention (the number is multiples of 4px), which is
+Token names follow Tailwind's convention (the number counts multiples of 4px), which is
 what Fibo and most React + Tailwind projects already use. If the project names
 tokens by t-shirt size (`space-sm`, `space-md`), keep that.
 
-Steps are not evenly spaced on purpose. Between 16 and 24 the eye can tell the
+The steps are uneven on purpose. Between 16 and 24 the eye can tell the
 difference; between 16 and 18 it cannot, so 18 is noise.
 
 ## Proximity ratios

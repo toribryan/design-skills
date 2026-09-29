@@ -14,7 +14,7 @@ description: >-
 
 Interface copy is part of the interaction. Every label, message, and hint either
 helps someone finish a task or makes them stop and think. UX writing makes copy
-specific, short, and consistent, and makes sure it says what happens next. The output
+specific, short, and consistent, and makes it say what happens next. The output
 is copy for every string on the screens in scope, with a content pattern sheet so the
 same situation always gets the same words.
 
@@ -50,7 +50,7 @@ Gather these. If one is missing, use the default in brackets.
 
 1. **Inventory strings.** List every piece of text on the screens in scope, with its
    type (button, label, hint, error, empty state, toast, heading). Include states
-   that are not visible by default. Output: a string inventory table.
+   hidden by default. Output: a string inventory table.
 2. **Fix the terminology.** One word per concept, one concept per word. Pick the term
    people use, not the internal one. Output: a glossary of 5–20 terms with
    rejected synonyms.
@@ -62,7 +62,7 @@ Gather these. If one is missing, use the default in brackets.
 4. **Write by pattern.** Draft each string using the content patterns table below.
    Model: [`references/before-after.md`](references/before-after.md), which shows each
    pattern rewritten. Copy that shape. Output: new copy next to old copy.
-5. **Check length and fit.** Put the copy into the real component at the real width,
+5. **Check length and fit.** Put the copy in the real component at the real width,
    at 390px, and with 30–40% expansion. Output: screenshots or notes on truncation.
 6. **Check reading level and inclusivity.** Run a readability check on longer
    strings and scan for the words in "Inclusive language". Output: a list of changes.

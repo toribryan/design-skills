@@ -38,8 +38,8 @@ Write one row per goal:
 
 ## Choosing well
 
-- **Primary metric.** One. It should be a leading metric the design can plausibly move
-  within weeks, and it should predict the lagging outcome the business cares about.
+- **Primary metric.** One. Make it a leading metric the design can plausibly move
+  within weeks and that predicts the lagging outcome the business cares about.
 - **Guardrails.** Pick 1–2 that would show you bought the win at someone else's cost:
   support contacts, error rate, time on task for a different task, performance budget,
   accessibility violations.

@@ -94,7 +94,7 @@ Use the `add-component` skill. The `component-reviewer` subagent reviews the res
 Rules for writing it:
 
 - Commands are exact and copy-pasteable. An agent runs them literally.
-- "Do not" lists only things that have actually gone wrong or would be costly.
+- "Do not" lists only things that have gone wrong or would be costly.
 - Conventions state the rule and, in a few words, why ("Figma cannot bind opacity
   to a variable"), so an agent can handle a case the rule did not foresee.
 

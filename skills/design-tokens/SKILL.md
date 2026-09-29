@@ -55,7 +55,7 @@ values, not structure.
 
 1. **Inventory.** List every raw value in use: colors, radii, spacing, shadows,
    font sizes, z-indexes, durations. Output: a table of value, count, and where
-   it appears. The `design-system-audit` greps produce this in minutes.
+   it appears. The `design-system-audit` greps build this in minutes.
 2. **Choose tiers.** Primitive and semantic always; component tier only where a
    component needs a knob a theme must reach (see Standards). Output: a one-line
    rule per tier saying who may reference it.
@@ -98,7 +98,7 @@ values, not structure.
 - Primitives are complete ramps (11 steps for Tailwind-style, 12 for Radix-style).
   Semantic roles are the curated subset.
 - Target 40–70 semantic color roles for a product UI. Under 20 forces components
-  to reach for primitives; over 100 means roles are being named per component.
+  to reach for primitives; over 100 means someone is naming roles per component.
 
 ### Naming
 
@@ -176,7 +176,7 @@ namespace; add semantic roles to it; do not delete the primitives, or
 ### DTCG JSON
 
 Every token has `$value` and `$type`; groups carry `$description`. References use
-`{group.token}`. Supported `$type`s to use: `color`, `dimension`, `fontFamily`,
+`{group.token}`. Use these `$type`s: `color`, `dimension`, `fontFamily`,
 `fontWeight`, `duration`, `cubicBezier`, `number`, `shadow`, `typography`. Write
 colors as hex (with alpha as `#rrggbbaa`) for Figma import, or as the newer
 object form when every tool in the chain supports it.

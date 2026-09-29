@@ -1,7 +1,7 @@
 # Authoring a skill or reviewer
 
 Every skill in this collection follows the same shape, so Claude (and people) can
-move between them without relearning the format. The shape is taken from the agent
+move between them without relearning the format. The shape comes from the agent
 setup in [Fibo](FIBO.md#how-fibo-works-with-agents): procedural steps that point at
 models, a definition of done, and read-only reviewers that do the checking.
 
@@ -48,8 +48,8 @@ so it carries the trigger phrases. Third person, under ~600 characters.
 5. **Standards.** The rules with real numbers: durations, ratios, sizes, counts.
    A standard nobody can check is not a standard.
 6. **Output.** The exact deliverable shape, or a link to the template.
-7. **Verify.** The definition of done. Concrete checks that must pass and the things
-   to look at by hand ("in light and dark, by keyboard, with reduced motion on").
+7. **Verify.** The definition of done. Concrete checks that must pass and what to
+   inspect by hand ("in light and dark, by keyboard, with reduced motion on").
    Name the reviewer subagent to delegate to, if one fits.
 8. **Anti-patterns.** What bad work in this area looks like, specifically.
 9. **Related skills.** What feeds this skill and where the work goes next.
@@ -86,6 +86,9 @@ Skills hand work to reviewers in their Verify section: "Delegate to the
   pick one and document it").
 - Sentence case for headings. No filler, no hype words, no emoji.
 - Write for someone skilled who is new to this particular problem.
+- Edit every draft with [clear-writing](https://github.com/sgrzincich/skills/blob/main/skills/clear-writing/SKILL.md):
+  Orwell's rules, then a pass for hidden verbs, topic-first sentences, and one point
+  per paragraph. Keep terms of art, numbers, and imperative steps.
 
 ## Tool awareness
 

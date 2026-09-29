@@ -95,7 +95,7 @@ and change the families before touching the scale.
 | 1.333 | Perfect fourth | Marketing, editorial |
 | 1.5+ | Perfect fifth and up | Display only; too few usable steps for UI |
 
-- Product UI: 6–9 sizes total. Over 10 means sizes are being chosen per screen.
+- Product UI: 6–9 sizes total. Over 10 means someone is choosing sizes per screen.
 - Tailwind's default scale (12, 14, 16, 18, 20, 24, 30, 36, 48...) is not a pure
   ratio, and that is fine: it is tuned by hand and familiar to engineers.
 - Round to whole pixels (or to 0.125rem) so Figma and code match.
@@ -128,7 +128,7 @@ product UI, so text boxes align with spacing.
 ### Measure
 
 45–75 characters per line; 66 is the classic target. `max-width: 65ch` on text
-containers. Wider than 90 characters, people lose their place on the return sweep.
+containers. Past 90 characters, readers lose their place on the return sweep.
 
 ### Fluid type
 

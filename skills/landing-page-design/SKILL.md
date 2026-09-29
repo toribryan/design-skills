@@ -183,7 +183,7 @@ The page is done when:
 
 - [ ] Cover the logo: the hero headline could not belong to a competitor
 - [ ] At 390×844, headline, subheadline, and primary CTA are visible without scrolling
-- [ ] There is exactly one primary CTA style on the page, with one label
+- [ ] The page has exactly one primary CTA style, with one label
 - [ ] Reading only the section headings, in order, tells the story
 - [ ] Every proof point is real and attributed
 - [ ] Lighthouse mobile: Performance ≥ 90, LCP < 2.5s, CLS < 0.1, Accessibility 100

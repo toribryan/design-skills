@@ -13,7 +13,7 @@ description: >-
 
 A wireframe is a cheap argument about structure. Its job is to make a few genuinely
 different bets visible early, while changing direction still costs minutes, and to
-record why each choice was made. The output is a set of 3+ distinct concept
+record the reason for each choice. The output is a set of 3+ distinct concept
 directions at low fidelity, annotated, with a recommendation on which to take forward
 and what would have to be true for it to win.
 
@@ -68,7 +68,7 @@ Gather these. If one is missing, use the default in brackets.
    Copy that shape: its tokens enforce the fidelity rules. In Figma, see "Tools" below.
    Output: 3–4 frames per viewport.
 5. **Annotate decisions.** Numbered pins on the frame, each tied to a note: what the
-   element is, why it is there, what it assumes. Open questions marked separately.
+   element is, why it is there, what it assumes. Mark open questions separately.
    Model: the `.pin` and `.notes` markup in the wireframe kit. Output: annotated frames.
 6. **Compare against the brief.** Directions against the primary task, the success
    metric, the riskiest assumption, and build cost. Model: the "Comparison" table in
@@ -87,8 +87,8 @@ Gather these. If one is missing, use the default in brackets.
 - **Figma MCP.** If connected, load the `figma-use` skill before calling `use_figma`.
   One page named "Wireframes – {date}", one section per direction, frames at 1440 and
   390, auto layout so content length changes reflow. Plain rectangles and text, not
-  library components, unless the direction is being built mid-fi. Annotations in
-  their own layer group so they can be hidden. If not connected, say so in one line
+  library components, unless you are building the direction mid-fi. Annotations in
+  their own layer group so you can hide them. If not connected, say so in one line
   and produce HTML.
 - **Mobbin MCP.** If connected, search real flows for each axis position before
   committing (for example "onboarding wizard" vs "checklist onboarding").
@@ -129,7 +129,7 @@ direction. Variations belong in `layout-and-hierarchy` once a direction is chose
 
 ### When to go hi-fi
 
-Move up in fidelity when one or more of these is true:
+Raise fidelity when any of these is true:
 
 - A direction has been chosen and its structure survived a critique or a test round
 - The decision depends on visual detail: data density, scannability of a table,

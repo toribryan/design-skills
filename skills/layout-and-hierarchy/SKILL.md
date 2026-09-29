@@ -12,8 +12,8 @@ description: >-
 # Layout and Hierarchy
 
 Layout decides where the eye goes and what belongs together. A good layout has one
-obvious starting point, groups that can be read as units, and a spacing system that
-makes those groups without borders or boxes. The output is a layout spec (grid,
+obvious starting point, groups that read as units, and a spacing system that forms
+those groups without borders or boxes. The output is a layout spec (grid,
 spacing scale, content widths, breakpoints, density) and a hierarchy pass on the
 target screens, with each change tied to a rule someone else can check.
 
@@ -68,7 +68,7 @@ Gather these. If one is missing, use the default in brackets.
    citing the rule it applies.
 7. **Align everything to few edges.** Count distinct left edges per region and reduce
    them. Output: edge count before and after.
-8. **Define responsive behavior.** For each region, what happens at each breakpoint:
+8. **Define responsive behavior.** For each region, decide what happens at each breakpoint:
    reflow, stack, collapse to a rail, move into a sheet, or scroll. Model: the "App
    shells" table (sidebar collapses below 1024, inspector becomes a sheet below 1280).
    Output: a breakpoint behavior table.

@@ -160,8 +160,8 @@ for the button's radius.
 
 Whether the special-component findings block depends on the house rules: Fibo's
 `AGENTS.md` allows special parts more freedom in dependencies, but its token
-rules apply to every component. That is the kind of judgment the report states
-explicitly rather than leaving to the reader.
+rules apply to every component. The report states a judgment like this outright
+instead of leaving it to the reader.
 
 ## Output
 

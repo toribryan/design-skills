@@ -54,20 +54,20 @@ Gather these. If one is missing, use the default in brackets.
    need their data somewhere else", which has other answers. Output: request, implied
    outcome, and the named solution marked as one option. Model: "The request" in
    [`templates/discovery-summary.md`](templates/discovery-summary.md); copy that shape.
-2. **Interview stakeholders, one at a time.** 30 minutes each, 4–8 people. Ask the same
-   core questions to each so answers can be compared. Read
+2. **Interview stakeholders, one at a time.** 30 minutes each, 4–8 people. Ask each person
+   the same core questions so you can compare answers. Read
    [`references/stakeholder-interviews.md`](references/stakeholder-interviews.md) for
    the question set. Output: a comparison table of how each person states the problem,
    the user, success, and the biggest risk. Model: the comparison table at the end of
    that reference; copy that shape.
 3. **Find the disagreement.** Where stakeholders differ on the user, the goal, or the
-   measure of success, write it down as a decision to make, not a detail to smooth over.
+   measure of success, write it down as a decision, not a detail to smooth over.
    Output: a list of 1–5 alignment gaps, each with an owner who decides. Model:
    "Alignment gaps" in the template.
 4. **Dig to the underlying problem.** Ask "why" until the answer is about a person's
    situation, not the product (the "5 whys" from Toyota's production system; stop when
-   the answer stops changing, often at 3). Check the problem against evidence you
-   already have. Output: a problem statement in the format under Standards; copy that
+   the answer stops changing, often at 3). Check the problem against the evidence you
+   hold. Output: a problem statement in the format under Standards; copy that
    shape word for word before editing it.
 5. **List assumptions.** Everything that must be true for the project to succeed,
    written as falsifiable sentences: "Admins export data at least monthly", not
@@ -152,7 +152,7 @@ Use this shape, one to three sentences:
 - **Codebase and docs.** Search for analytics events, feature flags, support macros,
   and past research before asking anyone. Evidence you already hold scores higher
   than a new opinion.
-- **FigJam via Figma MCP.** If connected, the assumption map and HMW list work well as a
+- **FigJam via Figma MCP.** If connected, put the assumption map and HMW list on a
   FigJam board: one sticky per assumption, placed on the 2×2. If not, a Markdown table
   is enough; say so in one line.
 - **Analytics (PostHog or similar).** If connected, pull the funnel or event counts that

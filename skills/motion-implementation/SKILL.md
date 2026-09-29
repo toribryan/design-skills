@@ -12,10 +12,10 @@ description: >-
 # Motion Implementation
 
 This skill turns a motion spec into code that runs on the compositor, survives being
-interrupted, and degrades cleanly for people who ask for less motion. The standard is
-simple to state: every animation uses defined tokens, animates only `transform` and
-`opacity` unless there is a stated reason, can be reversed mid-flight without a jump,
-and has a reduced-motion path that was tested, not assumed.
+interrupted, and degrades cleanly for people who ask for less motion. The standard:
+every animation uses defined tokens, animates only `transform` and `opacity` unless a
+reason is stated, reverses mid-flight without a jump, and has a reduced-motion path
+that was tested, not assumed.
 
 ## When to use
 
@@ -117,8 +117,8 @@ an element's first frame, so a transition runs on insert or on leaving `display:
 ```
 
 Add `display` and `overlay` to the transition list with `allow-discrete`, or a
-top-layer element (popover, `<dialog>`) disappears before its exit runs. Full dropdown
-and dialog versions are in `references/recipes.md`.
+top-layer element (popover, `<dialog>`) disappears before its exit runs.
+`references/recipes.md` has full dropdown and dialog versions.
 
 ### View Transitions
 
@@ -175,7 +175,7 @@ import { AnimatePresence, motion, MotionConfig } from "motion/react";
 ### GSAP and ScrollTrigger
 
 GSAP and all its plugins are free for commercial use since 3.13. In React, use the
-`useGSAP` hook from `@gsap/react` so animations are cleaned up on unmount. Build every
+`useGSAP` hook from `@gsap/react` so it cleans up animations on unmount. Build every
 timeline inside `gsap.matchMedia().add("(prefers-reduced-motion: no-preference)", ...)`,
 which reverts it when the query stops matching; the scrubbed timeline is in recipe 6.
 Never pin sections inside the app UI; pinning fights native scroll and breaks find-in-page.
@@ -218,8 +218,8 @@ reorder, shared element, and scroll reveal. Read it before building any of those
 
 ## Verify
 
-The animation is done when the project's lint, typecheck, and tests pass, and it has
-been watched by hand: at normal speed and at 0.25x in the DevTools Animations panel, in
+The animation is done when the project's lint, typecheck, and tests pass, and you have
+watched it by hand: at normal speed and at 0.25x in the DevTools Animations panel, in
 light and dark, driven by pointer and by keyboard, and once with reduced motion turned
 on (OS setting or `emulateMedia`). Then confirm:
 
@@ -243,7 +243,7 @@ and end in a verdict ("ready" or "N blocking issues"):
 
 ## Anti-patterns
 
-- `transition: all` which animates properties no one intended, including layout ones
+- `transition: all`, which animates properties no one intended, including layout ones
 - Scaling from `scale(0)`; start at 0.95–0.98
 - Animating `top`/`left`/`width`/`height` for movement that `transform` can do
 - Adding GSAP to an app for one fade that CSS handles

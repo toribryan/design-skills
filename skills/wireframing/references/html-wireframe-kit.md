@@ -68,8 +68,8 @@ color that only annotations may use.
 
 ## Conventions
 
-- One `.direction` section per concept, side by side on one board, so they are
-  compared at a glance.
+- One `.direction` section per concept, side by side on one board, for comparison
+  at a glance.
 - Lay out regions with CSS grid (`grid-template-columns: 240px 1fr` for sidebar
   layouts, `repeat(12, 1fr)` when testing a 12-column structure).
 - Position pins with inline `top` and `left` in pixels relative to the frame.

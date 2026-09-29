@@ -3,7 +3,7 @@ name: brand-strategy
 description: >-
   Produces a brand platform: purpose, positioning statement, audience, brand
   attributes as "this, not that" pairs, competitive map, pillars, and promise, so
-  identity, voice, and product decisions have something to be checked against. Use
+  identity, voice, and product decisions have something to check against. Use
   for "brand strategy", "positioning", "brand platform", "who are we", "brand
   attributes", "how are we different", or "brand pillars". Not for logos, color,
   or type (use brand-identity) or how the brand writes (use brand-voice).
@@ -50,7 +50,7 @@ it, and every attribute rules something out.
    that shape. Output: a 2x2 with a sentence on where the brand sits and why that
    space is real, not empty because nobody wants it.
 3. **Write the purpose.** One sentence on why the company exists beyond revenue.
-   Output: purpose statement, plus two rejected drafts and why they were rejected.
+   Output: purpose statement, plus two rejected drafts and why each failed.
 4. **Write the positioning statement** using Geoffrey Moore's template from *Crossing
    the Chasm* (1991), below. Check it against April Dunford's inputs from *Obviously
    Awesome* (2019): competitive alternatives, unique attributes, value, best-fit
@@ -64,8 +64,8 @@ it, and every attribute rules something out.
 8. **Set 3–4 brand pillars and the promise.** Pillars are the themes the brand talks
    about and proves; the promise is what a customer can count on every time. Output:
    pillars with proof points, and a one-sentence promise.
-9. **Pressure-test.** Swap in a competitor's name. Anything that still reads as true
-   gets rewritten. Output: the final platform in the template.
+9. **Pressure-test.** Swap in a competitor's name. Rewrite anything that still reads
+   as true. Output: the final platform in the template.
 
 ## Standards
 
@@ -79,7 +79,7 @@ it, and every attribute rules something out.
   logistics companies", not "businesses".
 - The category is one a buyer already understands. Inventing a category is expensive;
   do it only with evidence and budget.
-- The differentiation is provable. If there is no proof point, it is an aspiration.
+- The differentiation is provable. Without a proof point, it is an aspiration.
 - Positioning is internal. It is never marketing copy as written.
 
 ### Attributes
@@ -147,8 +147,8 @@ The platform is done when:
       non-product alternative is plotted
 - [ ] Three people outside the project read it and each can answer, unaided: who is
       it for, what is it, why pick it over the alternative
-- [ ] Two real decisions (a homepage headline, an error message, a feature priority)
-      have been settled by pointing at it
+- [ ] The team has settled two real decisions (a homepage headline, an error message,
+      a feature priority) by pointing at it
 
 Delegate a review to the `design-critic` subagent for specificity and internal
 consistency; it reports only the statements that fail, with section, and ends in a

@@ -70,7 +70,7 @@ Use these more than prepared questions.
 - Do not correct the participant or explain how the product works.
 - Mirror their vocabulary in follow-ups. Their words are data for labels later.
 - The note-taker writes observations and verbatim quotes with timestamps, not
-  interpretations. Interpretation happens in synthesis.
+  interpretations. Interpret in synthesis.
 
 ## Debrief (10 minutes after each session)
 

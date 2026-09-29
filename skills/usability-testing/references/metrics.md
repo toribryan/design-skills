@@ -7,7 +7,7 @@ Asked immediately after each task:
 > Overall, how difficult or easy was this task to complete?
 > 1 = Very difficult … 7 = Very easy
 
-- Average across tasks in Jeff Sauro's (MeasuringU) data is about 5.5.
+- The average across tasks in Jeff Sauro's (MeasuringU) data is about 5.5.
 - A task averaging below 5 deserves a look; below 4 is a problem task.
 - Follow a low score (1–4) with "What made it difficult?" in moderated sessions.
 
@@ -83,7 +83,7 @@ then compute a normal interval on the adjusted proportion.
 
 ## Time on task
 
-- Only successful attempts. Start timing when the participant finishes reading the
+- Time successful attempts only. Start timing when the participant finishes reading the
   task; stop at the defined end state.
 - Task times are right-skewed. For samples under ~25, report the geometric mean
   (average the logs, then exponentiate), which estimates the median better than the

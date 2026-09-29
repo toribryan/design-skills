@@ -138,7 +138,7 @@ complete; prose comes first because only a person can write it.
 - A **PR checklist** that restates the definition of done in the same words as
   `AGENTS.md`.
 - **Decision records** (`plans/NNN-name.md`, numbered, never reused): what is
-  changing, why now, options, what was chosen. Kept after shipping.
+  changing, why now, options, what was chosen. Keep them after shipping.
 - A **changelog** page in the docs site, newest first, one line per change a
   consumer would notice.
 - Status labels in metadata (`new`, `beta`, `deprecated`) shown in the sidebar.
@@ -215,7 +215,7 @@ described in [`references/agent-kit.md`](references/agent-kit.md).
   works as pasted.
 - Keyboard through the docs site: sidebar, canvases and tabs are reachable.
 - Give an agent only `AGENTS.md` and the add-component skill and ask it to add a
-  small part. The reviewer's verdict on the result is the test of the kit.
+  small part. The reviewer's verdict on the result tests the kit.
 
 **Delegate** each page to the `component-reviewer`
 ([`agents/component-reviewer.md`](../../agents/component-reviewer.md)), whose docs

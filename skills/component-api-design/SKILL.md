@@ -94,9 +94,9 @@ designing from zero. Keep the project's names if it already has conventions.
   size) at most; a third axis usually means a new component.
 - Booleans that combine into impossible states (`primary` + `ghost` + `danger`)
   become one variant.
-- Rendering props (`icon`, `leftIcon`, `rightIcon`, `title`, `subtitle`) that
-  multiply are a sign the part wants composition: let children carry content and
-  mark placement with an attribute (`data-icon="inline-start"`).
+- When rendering props (`icon`, `leftIcon`, `rightIcon`, `title`, `subtitle`)
+  multiply, the part wants composition: let children carry content and mark
+  placement with an attribute (`data-icon="inline-start"`).
 - Pass through every native attribute (`...props`) and `className`. A consumer
   should never need a wrapper div to add an `aria-*` or `id`.
 

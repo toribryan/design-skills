@@ -14,7 +14,7 @@ description: >-
 Voice is the brand's personality in words, and it stays constant. Tone is how that
 voice adjusts to the moment: a person reading an error is in a different state than a
 person reading a launch announcement. Mailchimp's content style guide made this split
-standard, and it is the split this skill uses. The output is a voice guide that a new
+standard, and this skill uses it. The output is a voice guide that a new
 writer, a product designer, or a support agent can use to write something on-voice
 the first time. The standard: every attribute comes with rewrites that show it, and
 two writers given the same brief produce copy that sounds like the same company.
@@ -66,8 +66,8 @@ empty states (use `ux-writing`), or the brand's positioning and attributes (use
    the product's UX writing style guide.
 7. **Rewrite real samples.** Take 8–10 off-voice samples from the audit and rewrite
    them. Output: before/after pairs with a line on what changed.
-8. **Test with writers.** Give two people who were not involved the guide and the same
-   three briefs. Compare. Output: revisions where their results diverged.
+8. **Test with writers.** Give the guide and the same three briefs to two people who
+   were not involved. Compare. Output: revisions where their results diverged.
 
 ## Standards
 
@@ -145,7 +145,7 @@ the tone map row for errors, top 10 words) for people who will not read the full
 
 The guide is done when two writers who were not involved have used it on the same
 three briefs (one error, one onboarding screen, one marketing paragraph) and their
-drafts read as the same company, and when every sample in it has been read aloud.
+drafts read as the same company, and you have read every sample in it aloud.
 Then confirm:
 
 - [ ] Each attribute has a "not that", at least two do/don't pairs, and one rewrite

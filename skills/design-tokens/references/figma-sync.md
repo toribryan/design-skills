@@ -18,7 +18,7 @@ choosing the same thing, in every mode.
   in disguise.
 - Alpha roles cannot alias a primitive plus an opacity. Store them as a raw
   color with alpha (`#bf000f14`) and put "red-700 at 8%" in the variable's
-  description. This is the reason alpha roles exist as names at all.
+  description. This is why alpha roles exist as names at all.
 - Scope variables: color roles to fills and strokes, `*-foreground` to text,
   radius to corner radius. Scoping keeps the picker short.
 - Figma number variables are unitless pixels. Every radius and spacing step
