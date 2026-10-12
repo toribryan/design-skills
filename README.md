@@ -21,10 +21,10 @@ Clone the repo, then link the skills and reviewers into your user-level Claude
 folders so every project sees them:
 
 ```bash
-git clone https://github.com/toribryan/toribryan
+git clone https://github.com/toribryan/design-skills
 mkdir -p ~/.claude/skills ~/.claude/agents
-ln -s "$PWD"/toribryan/design-skills/skills/* ~/.claude/skills/
-ln -s "$PWD"/toribryan/design-skills/agents/*.md ~/.claude/agents/
+ln -s "$PWD"/design-skills/skills/* ~/.claude/skills/
+ln -s "$PWD"/design-skills/agents/*.md ~/.claude/agents/
 ```
 
 Symlinks keep them current with `git pull`. To use them in one project only, link
